@@ -16,7 +16,7 @@ while True:
     cv2.imwrite(img_name, frame)
     print("Written!".format(img_name))
     img_counter += 1
-    addr = 'http://10.194.85.115:3000'
+    addr = 'http://35.237.245.130:80'
     test_url = addr + '/upload?q=question&shelter=JHack'
     # prepare headers for http request
     content_type = 'image/jpeg'
